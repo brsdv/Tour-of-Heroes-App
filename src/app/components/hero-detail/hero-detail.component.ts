@@ -25,4 +25,8 @@ export class HeroDetailComponent {
       this.hero = hero;
     });
   }
+
+  goBack(): void {
+    this.location.back();
+  }
 }
